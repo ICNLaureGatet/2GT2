@@ -60,8 +60,7 @@ $(function() {
                 newContent += "<p>Il est possible de les faire sur OpenOffice ou LibreOffice (pas fan d'un logiciel propriétaire comme Word, mais j'essaierai de vous pardonner). Vous pouvez aussi prendre une photo (mais c'est très lourd) ou un scan (éventuellement avec une appli sur smartphone - comme camScanner que j'itilise en classe).</p>"
                 newContent += "<p>Déposer le tout sur l'ENT.</p>"
                 newContent += "<ul><li> exercice 67 p. 314 ;</li>"
-                newContent += "<li> exercice 70 p. 315 ;</li>"
-                newContent += "<li> exercices 29 et 30 p. 309 ;</li>"
+                newContent += "<li> exercice 70 p. 315.</li>"
                 newContent += "</ul>"
                 break
             case 'Propriété des probabilités ; Utilisation d\'un arbre':
@@ -71,6 +70,11 @@ $(function() {
                 newContent += '<video controls width="467" height="350"><source src="videos/Proprieteproba.mp4"></video>'
                 newContent += '<h3>c) Utilisation d\'un arbre</h3>'
                 newContent += '<video controls width="467" height="350"><source src="videos/utilisationArbre.mp4"></video>'
+                newContent += "<p><strong>Faire les exercices suivants :</strong></p>"
+                newContent += "<p>Déposer le tout sur l'ENT.</p>"
+                newContent += "<ul><li> exercices 29 et 30 p. 309 ;</li>"
+                newContent += "<li> exercice 55 p. 313 ;</li>"
+                newContent += "<li> exercice 89 p. 318.</li>"
                 break
             default:
                 //accueil
