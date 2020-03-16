@@ -85,4 +85,17 @@ $(function() {
 
         callback()
     }
+    const counter = document.getElementById("counter")
+    $('#counter').hide()
+
+    const updateCounter = async() => {
+        const data = await fetch("https://api.countapi.xyz/hit/2GT2Counter/visits")
+        const count = await data.json()
+        counter.innerHTML = count.value
+        console.log(count.value)
+    }
+    updateCounter()
+    $('#voirCompteur').on('click', function() {
+        $('#counter').show()
+    })
 })
