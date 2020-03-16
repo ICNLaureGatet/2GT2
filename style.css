@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     /* Définition d'une nouvelle police nommée LearningCurveProRegular - Police téléchargée sur http://www.fontsquirrel.com/ */
     font-family: 'Policetitre';
     src: url('fonts/journal-webfont.eot');
@@ -61,31 +61,13 @@ h3 {
     font-family: Liberation Serif, sans-serif;
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-align: center;
     background-color: rgba(200, 100, 100, 0.4);
     border-top: 2px solid rgb(255, 100, 100);
     border-left: 2px solid rgb(255, 150, 150);
     border-radius: 10px;
     box-shadow: 6px 6px 2px rgb(200, 100, 100);
-}
-
-#lycee {
-    float: right;
-    border-radius: 10px;
-    border-left: 3px solid rgb(255, 10, 10);
-    border-bottom: 3px solid rgb(255, 10, 10);
-    margin: 0 5px 0 5px;
-}
-
-#monlycee {
-    font-family: Liberation Serif, sans-serif;
-    font-size: 1.1em;
-    float: left;
-}
-
-#monlycee img {
-    width: auto;
 }
 
 p,
@@ -111,28 +93,8 @@ section h2 {
     /*margin-bottom:20px;*/
 }
 
-.choix_pedagogique {
-    font-weight: bold;
-    color: rgb(50, 50, 50);
-    box-shadow: 6px 6px 2px rgb(100, 100, 100);
-}
-
 em {
     text-decoration: italic;
-}
-
-#module {
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.image_centree {
-    float: centering;
-}
-
-.exemple {
-    color: rgb(200, 0, 0);
-    text-decoration: underline;
 }
 
 #bandeau {
@@ -190,4 +152,11 @@ em {
 .divCentree {
     width: 100%;
     text-align: center;
+}
+
+#voirCompteur,
+#counter {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
