@@ -12,10 +12,8 @@ body {
 	par ailleurs, j'ai mis des guillemets autour des polices qui contiennent une espace dans leur nom*/
     background: url("images/bg1.gif");
     /*Image téléchargée sur http://www.fontsquirrel.com/*/
-    /*height:99%;*/
-    width: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
 }
 
 nav ul {
