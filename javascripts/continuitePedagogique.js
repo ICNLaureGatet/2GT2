@@ -49,6 +49,9 @@ $(function() {
                 newContent += '<p><u>Poursuite du cours :</u></p>'
                 newContent += '<p><img src="images/PrbPartieI2.png"></p>'
                 newContent += '<p><strong>Des exercices sont alors à faire sur lycée connecté.</strong></p>'
+                newContent += '<p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome : '
+                newContent += '<ul><li><a href="https://bibliotheque.sesamath.net/public/voir/5cb88c404bb1527df9236bf8" target="_blank">Loi de probabilité</a></li>'
+                newContent += '<li><a href="https://bibliotheque.sesamath.net/public/voir/5cbd6af84bb1527df9236c07" target="_blank">Calculer une probabilité</a></li></ul></p>'
                 break
             case 'Représentation':
                 newContent = '<h2>II - Événements "A et B", événement "A ou B" </h2>'
@@ -60,8 +63,10 @@ $(function() {
                 newContent += "<p>Il est possible de les faire sur OpenOffice ou LibreOffice (pas fan d'un logiciel propriétaire comme Word, mais j'essaierai de vous pardonner). Vous pouvez aussi prendre une photo (mais c'est très lourd) ou un scan (éventuellement avec une appli sur smartphone - comme camScanner que j'itilise en classe).</p>"
                 newContent += "<p>Déposer le tout sur l'ENT.</p>"
                 newContent += "<ul><li> exercice 67 p. 314 ;</li>"
-                newContent += "<li> exercice 70 p. 315.</li>"
-                newContent += "</ul>"
+                newContent += "<li> exercice 70 p. 315.</li></ul>"
+                newContent += '<p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome : '
+                newContent += '<ul><li><a href="https://bibliotheque.sesamath.net/public/voir/5e28c34211bf937495a7e604" target="_blank">Diagramme de Venn</a></li>'
+                newContent += '<li><a href="https://bibliotheque.sesamath.net/public/voir/5cbe2a084bb1527df9236c0c" target="_blank">Probabilité d\'intersection ou de réunion</a></li></ul></p>'
                 break
             case 'Propriété des probabilités ; Utilisation d\'un arbre':
                 newContent = '<p><a href="pdf/2019_presentationPrbPartie2bc.pdf" target="_blank">Propriétés des probabilités et utilisation d\'un arbre au format pdf</a><br/>'
@@ -73,7 +78,10 @@ $(function() {
                 newContent += "<p><strong>Faire les exercices suivants (pas besoin de les envoyer mais n'hésitez pas à poser des questions en cas de problème - éventuellement sur l'application Forum de l'ENT, tout le monde y aura accès ensuite...):</strong></p>"
                 newContent += "<ul><li> exercices 29 et 30 p. 309 ;</li>"
                 newContent += "<li> exercice 55 p. 313 ;</li>"
-                newContent += "<li> exercice 89 p. 318.</li>"
+                newContent += "<li> exercice 89 p. 318.</li></ul>"
+                newContent += '<p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome : '
+                newContent += '<ul><li><a href="https://bibliotheque.sesamath.net/public/voir/5cbb2b114bb1527df9236c02" target="_blank">Calculer une probabilité à l\'aide d\'un arbre</a></li>'
+                newContent += '<li><a href="https://bibliotheque.sesamath.net/public/voir/91414" target="_blank">Construction d\'un arbre et calcul de la probabilité d\'une intersection</a></li></ul></p>'
                 break
             default:
                 //accueil
