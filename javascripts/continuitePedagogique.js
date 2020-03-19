@@ -70,8 +70,7 @@ $(function() {
                 newContent += '<video controls width="467" height="350"><source src="videos/Proprieteproba.mp4"></video>'
                 newContent += '<h3>c) Utilisation d\'un arbre</h3>'
                 newContent += '<video controls width="467" height="350"><source src="videos/utilisationArbre.mp4"></video>'
-                newContent += "<p><strong>Faire les exercices suivants :</strong></p>"
-                newContent += "<p>Déposer le tout sur l'ENT.</p>"
+                newContent += "<p><strong>Faire les exercices suivants (pas besoin de les envoyer mais n'hésitez pas à poser des questions en cas de problème - éventuellement sur l'application Forum de l'ENT, tout le monde y aura accès ensuite...):</strong></p>"
                 newContent += "<ul><li> exercices 29 et 30 p. 309 ;</li>"
                 newContent += "<li> exercice 55 p. 313 ;</li>"
                 newContent += "<li> exercice 89 p. 318.</li>"
