@@ -64,6 +64,7 @@ $(function() {
                 newContent += "<p>Déposer le tout sur l'ENT.</p>"
                 newContent += "<ul><li> exercice 67 p. 314 ;</li>"
                 newContent += "<li> exercice 70 p. 315.</li></ul>"
+                newContent += '<p>Voici la correction de ces exercices : <a href="pdf/ex67_70p314.pdf" target="_blank">pdf</a></p>'
                 newContent += '<p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome : '
                 newContent += '<ul><li><a href="https://bibliotheque.sesamath.net/public/voir/5e28c34211bf937495a7e604" target="_blank">Diagramme de Venn</a></li>'
                 newContent += '<li><a href="https://bibliotheque.sesamath.net/public/voir/5cbe2a084bb1527df9236c0c" target="_blank">Probabilité d\'intersection ou de réunion</a></li></ul></p>'
