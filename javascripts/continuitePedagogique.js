@@ -79,6 +79,7 @@ $(function() {
                 newContent += "<ul><li> exercices 29 et 30 p. 309 ;</li>"
                 newContent += "<li> exercice 55 p. 313 ;</li>"
                 newContent += "<li> exercice 89 p. 318.</li></ul>"
+                newContent += '<p>Voici la correction de ces exercices : <a href="pdf/ex29_30_55_89p309a318.pdf" target="_blank">pdf</a></p>'
                 newContent += '<p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome : '
                 newContent += '<ul><li><a href="https://bibliotheque.sesamath.net/public/voir/5cbb2b114bb1527df9236c02" target="_blank">Calculer une probabilité à l\'aide d\'un arbre</a></li>'
                 newContent += '<li><a href="https://bibliotheque.sesamath.net/public/voir/91414" target="_blank">Construction d\'un arbre et calcul de la probabilité d\'une intersection</a></li></ul></p>'
