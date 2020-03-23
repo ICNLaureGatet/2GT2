@@ -85,6 +85,9 @@ $(function() {
                 newContent += '<ul><li><a href="https://bibliotheque.sesamath.net/public/voir/5cbb2b114bb1527df9236c02" target="_blank">Calculer une probabilité à l\'aide d\'un arbre</a></li>'
                 newContent += '<li><a href="https://bibliotheque.sesamath.net/public/voir/91414" target="_blank">Construction d\'un arbre et calcul de la probabilité d\'une intersection</a></li></ul></p>'
                 break
+            case 'Fluctuation d\'échantillonnage':
+                newContent = '<p><a href="pdf/FluctuationEleve.pdf" target="_blank">Cours complété :</a> seule partie de gauche à été travaillée jusqu\'à présent (la suite jeudi).'
+                break
             default:
                 //accueil
                 newContent = contenuInit
