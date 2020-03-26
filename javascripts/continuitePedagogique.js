@@ -90,9 +90,9 @@ $(function() {
                 newContent += '<p>Construction de l\'algorithme sur la <a href="pdf/cours 26 mars.pdf" target="_blank">simulation de 100 lancers de dé</a> avec calcul de la fréquence d\'apparition du 6.</p>'
                 newContent += '<p>Fin du chapitre avec la loi des grands nombres (en vidéo ci-dessous) : <br/><img src="images/frequence.jpg" alt="encadrement de la fréquence"/></p>'
                 newContent += '<video controls width="506" height="285"><source src="videos/loiGrandsNombres.mp4"></video>'
+                newContent += '<p>Dernier exercice du cours (<a href="pdf/dernierAlgoCours.pdf" target="_blank">fonction simulant 500 expériences</a>).</p>'
                 newContent += '<ul><li>Pour vendredi 27 mars : exercices 82 et 84 p. 317</li>'
-                newContent += '<li>Pour lundi 30 mars, vous avez des exercices sur labomep (toujours accessible par Médiacentre de l\'ENT) : il est intitulé <b>Probabilités</b> en haut à gauche.</li></u>'
-                
+                newContent += '<li>Pour lundi 30 mars, séquence sur labomep (toujours accessible par Médiacentre de l\'ENT) : elle est intitulée <b>Probabilités</b> en haut à gauche.</li></u>'
                 break
             default:
                 //accueil
