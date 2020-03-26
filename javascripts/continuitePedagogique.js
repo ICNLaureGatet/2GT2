@@ -87,6 +87,10 @@ $(function() {
                 break
             case 'Fluctuation d\'échantillonnage':
                 newContent = '<p><a href="pdf/FluctuationEleve.pdf" target="_blank">Cours complété :</a> seule partie de gauche à été travaillée jusqu\'à présent (la suite jeudi).'
+                newContent += '<p>Construction de l\'algorithme sur la <a href="pdf/cours 26 mars.pdf" target="_blank">simulation de 100 lancers de dé</a> avec calcul de la fréquence d\'apparition du 6.</p>'
+                newContent += '<p>Fin du chapitre avec la loi des grands nombres (en vidéo ci-dessous) : <br/><img src="images/frequence.jpg" alt="encadrement de la fréquence"/></p>'
+                newContent += '<video controls width="506" height="285"><source src="videos/loiGrandsNombres.mp4"></video>'
+
                 break
             default:
                 //accueil
