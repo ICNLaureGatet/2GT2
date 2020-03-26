@@ -42,7 +42,7 @@ function initialization() {
             document.querySelector('body').appendChild(tmp)
         }
     }
-    /*const counter = document.getElementById("counter")
+    const counter = document.getElementById("counter")
     $('#counter').hide()
 
     const updateCounter = async() => {
@@ -53,7 +53,7 @@ function initialization() {
     updateCounter()
     $('#voirCompteur').on('click', function() {
         $('#counter').show()
-    })*/
+    })
 
 }
 
