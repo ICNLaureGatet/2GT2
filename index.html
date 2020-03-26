@@ -5,59 +5,126 @@
     <!-- En-tête de la page -->
     <meta charset="utf-8" />
     <!-- C'est l'encodage de mon site -->
-    <meta name='description' content="Continuité pédagogique" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name='keywords' content="SNT, informatique" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
     <!--import des styles en .css-->
     <title>2GT2</title>
     <!--C'est le titre de la page (écrit en haut de l'onglet du navigateur) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="javascript/continuitePedagogique.js"></script>
 </head>
 
+<header>
+    <span id="voirCompteur">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <p id="counter"></p>
+    <h2>Continuité pédagogique en 2GT2</h2>
+</header>
+
 <body>
-    <header>
-        <span id="voirCompteur">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <p id="counter"></p>
-        <h1>Continuité pédagogique</h1>
-        <p class="h2header">2GT2</p>
+    <p>Ce site reprend ce qui est présent sur l'ENT <a href="http://lyceeconnecte.fr" target="_blank">lyceeconnecte</a></p>
+    <p>Il permet d'accéder facilement au cours, l'accessibilité à l'ENT risquant d'être mise à dure épreuve suite au nombre très important de connexions.</p>
+    <p>Mettez l'adresse de ce site dans vos favoris, pour y accéder directement.</p>
+    <!--J'ai trouvé le bandeau de navigation ici :
+      https://www.pierre-giraud.com/html-css-apprendre-coder-cours/creation-menu-deroulant/
+       -->
+    <div id="travailRendre">
         <p> Travaux à rendre :
             <ul>
-                <li><a href="pdf/2019_2nde_DM05.pdf" target="_blank">Devoir maison N°5</a> (probabilités) pour le lundi 30 mars (sur moodle ou par mail)</li>
+                <li><a href="documents/2019_2nde_DM05.pdf" target="_blank">Devoir maison N°5</a> (probabilités) pour le lundi 30 mars (sur moodle ou par mail)</li>
             </ul>
         </p>
-    </header>
-    <div id="bandeau">
-        <nav>
-            <ul id="bandeauUl">
-                <li><a class='lienPage' href="#" />Accueil</a>
-                </li>
-                <li>Chapitre VIII - Probabilités</li>
-                <li><a class='lienPage' href="#" />I - Événements et probabilités</a>
-                </li>
-                <li>II - Événements "A et B", événement "A ou B"</li>
-                <li><a class='lienPage' href="#" />Représentation</a>
-                </li>
-                <li><a class='lienPage' href="#" />Propriété des probabilités ; Utilisation d'un arbre</a>
-                </li>
-<li><a class='lienPage' href="#" />Fluctuation d'échantillonnage</a>
-                </li>
-            </ul>
-        </nav>
-
     </div>
-    <div id="blocPage">
-        <p>Ce site reprend ce qui est présent sur l'ENT <a href="http://lyceeconnecte.fr" target="_blank">lyceeconnecte</a></p>
-        <p>Il permet d'accéder facilement au cours, l'accessibilité à l'ENT risquant d'être mise à dure épreuve suite au nombre très important de connexions.</p>
-        <p>Mettez l'adresse de ce site dans vos favoris, pour y accéder directement.</p>
-        <ul class="liste_module">
-            <li> Bien sûr, certains exercices ne pourront être faits que sur l'ENT ;</li>
-            <li> L'accès à labomep se fera également avant tout depuis cet ENT.</li>
+    <nav>
+        <ul>
+            <li class="deroulant"><a href="#" id="navprobabilites">Chap VIII - Probabilités &ensp;</a>
+                <ul class="sous">
+                    <li id="navevtsProba"><a href="#">I - Événements et probabilités</a></li>
+                    <li id="navrepresentation"><a href="#">II a) Représentation</a></li>
+                    <li id="navpropArbre"><a href="#">b) Propriété des probabilités ; c) Utilisation d'un arbre</a></li>
+                    <li id="navfluctuation"><a href="#">Fluctuation d'échantillonnage</a></li>
+                </ul>
+            </li>
         </ul>
+    </nav>
 
+    <div id='probabilites'>
+        <h1 id="Introduction">Chapitre VIII - Probabilités</h1>
 
+        <div id="evtsProba">
+            <h2>I - Événements et probabilités</h2>
+            <p>Dans un premier temps, téléchargez et imprimez le fichier <a href="documents/2019_2nde_08_Probabilites_eleve.pdf" target="_blank">Support de cours</a></p>
+            <p> Pour la partie cours, complétez à l'aide des captures ci-dessous. Cela devrait vous permettre de retenir l'essentiel (notamment les définitions).</p>
+            <p><img src="images/PrbPartieI.png"></p>
+            <p>Pour la suite du document à compléter (exemples), vous devez aller sur lycée connecté (Exemples de calculs probabilités où vous pourrez vous tester et vérifier si vous avez bien compris les définitions).
+                <p><u>Poursuite du cours :</u></p>
+                <p><img src="images/PrbPartieI2.png"></p>
+                <p><strong>Des exercices sont alors à faire sur lycée connecté.</strong></p>
+                <p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome :
+                    <ul>
+                        <li><a href="https://bibliotheque.sesamath.net/public/voir/5cb88c404bb1527df9236bf8" target="_blank">Loi de probabilité</a></li>
+                        <li><a href="https://bibliotheque.sesamath.net/public/voir/5cbd6af84bb1527df9236c07" target="_blank">Calculer une probabilité</a></li>
+                    </ul>
+                </p>
+        </div>
+        <div id="representation">
+            <h2>II - Événements "A et B", événement "A ou B" </h2>
+            <h3>a) Représentation</h3>
+            <p>Les étapes permettant de compléter votre partie sont dans ce <a href="documents/2019_presentationPrbPartie2.pdf" target="_blank">pdf</a><br/>Cette vidéo vous explique le cours ci-dessus. N'hésitez pas à la télécharger (15Mo) pour être sûr
+                de pouvoir le relire tranquillement.</p>
+            <video controls width="467" height="350"><source src="videos/presentationAetB_AouB.mp4"></video>
+            <p><strong>Faire les exercices suivants :</strong></p>
+            <p>Il est possible de les faire sur OpenOffice ou LibreOffice (pas fan d'un logiciel propriétaire comme Word, mais j'essaierai de vous pardonner). Vous pouvez aussi prendre une photo (mais c'est très lourd) ou un scan (éventuellement avec une
+                appli sur smartphone - comme camScanner que j'utilise en classe).</p>
+            <p>Déposer le tout sur l'ENT.</p>
+            <ul>
+                <li> exercice 67 p. 314 ;</li>
+                <li> exercice 70 p. 315.</li>
+            </ul>
+            <p>Voici la correction de ces exercices : <a href="documents/ex67_70p314.pdf" target="_blank">pdf</a></p>
+            <p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome :
+                <ul>
+                    <li><a href="https://bibliotheque.sesamath.net/public/voir/5e28c34211bf937495a7e604" target="_blank">Diagramme de Venn</a></li>
+                </ul>
+            </p>
+        </div>
+        <div id="propArbre">
+            <p><a href="documents/2019_presentationPrbPartie2bc.pdf" target="_blank">Propriétés des probabilités et utilisation d'un arbre au format pdf</a></p>
+            <p>Ces deux vidéos reprennent les deux sous-parties du document.</p>
+            <h3>b) Propriété des probabilités</h3>
+            <video controls width="467" height="350"><source src="videos/Proprieteproba.mp4"></video>
+            <h3>c) Utilisation d'un arbre</h3>
+            <video controls width="467" height="350"><source src="videos/utilisationArbre.mp4"></video>
+            <p><strong>Faire les exercices suivants (pas besoin de les envoyer mais n'hésitez pas à poser des questions en cas de problème - éventuellement sur l'application Forum de l'ENT, tout le monde y aura accès ensuite...):</strong></p>
+            <ul>
+                <li> exercices 29 et 30 p. 309 ;</li>
+                <li> exercice 55 p. 313 ;</li>
+                <li> exercice 89 p. 318.</li>
+            </ul>
+            <p>Voici la correction de ces exercices : <a href="documents/ex29_30_55_89p309a318.pdf" target="_blank">pdf</a></p>
+            <p>Voici des exercices en ligne pour vous faire travailler cette partie de manière autonome :
+                <ul>
+                    <li><a href="https://bibliotheque.sesamath.net/public/voir/5cbb2b114bb1527df9236c02" target="_blank">Calculer une probabilité à l'aide d'un arbre</a></li>
+                    <li><a href="https://bibliotheque.sesamath.net/public/voir/91414" target="_blank">Construction d'un arbre et calcul de la probabilité d'une intersection</a></li>
+                </ul>
+            </p>
+        </div>
+        <div id="fluctuation">
+            <p><a href="documents/FluctuationEleve.pdf" target="_blank">Cours complété :</a> seule partie de gauche à été travaillée lundi 26 mars.</p>
+            <p>Construction de l'algorithme sur la <a href="documents/cours 26 mars.pdf" target="_blank">simulation de 100 lancers de dé</a> avec calcul de la fréquence d'apparition du 6.</p>
+            <p>Fin du chapitre avec la loi des grands nombres (en vidéo ci-dessous) : <br/><img src="images/frequence.jpg" alt="encadrement de la fréquence" /></p>
+            <video controls width="506" height="285"><source src="videos/loiGrandsNombres.mp4"></video>
+            <p>Dernier exercice du cours (<a href="documents/dernierAlgoCours.pdf" target="_blank">fonction simulant 500 expériences</a>).</p>
+            <ul>
+                <li>Pour vendredi 27 mars : exercices 82 et 84 p. 317</li>
+                <li>Pour lundi 30 mars, séquence sur labomep (toujours accessible par Médiacentre de l'ENT) : elle est intitulée <b>Probabilités</b> en haut à gauche.</li>
+                </u>
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <!--<script src="js/jquery-2.2.3.min.js"></script>  <!--version locale en développement-->
-    <script src='javascripts/continuitePedagogique.js'></script>
+    <footer id="licencePied">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.0/fr/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 2.0 France</a>.
+    </footer>
 
 </body>
+
 
 </html>
