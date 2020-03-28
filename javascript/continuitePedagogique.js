@@ -1,7 +1,8 @@
-let listeChap = ["probabilites"];
+let listeChap = ["probabilites", "carreeRacine"];
 let listeSousPartie = [
-    ["evtsProba", "representation", "propArbre", "fluctuation"]
-];
+    ["evtsProba", "representation", "propArbre", "fluctuation"],
+    ["fctCarree", "idRemarquables", "equationsIneq", "racineCarree"]
+]
 let contenuDiv = {}; //j'en fais un objet plutôt qu'une liste
 
 
