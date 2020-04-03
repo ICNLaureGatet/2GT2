@@ -1,7 +1,7 @@
 let listeChap = ["probabilites", "carreeRacine"];
 let listeSousPartie = [
     ["evtsProba", "representation", "propArbre", "fluctuation"],
-    ["fctCarree", "idRemarquables", "equationsIneq", "racineCarree"]
+    ["fctCarree", "idRemarquables", "equationsIneq", "racineCarree", "racineProprietes"]
 ]
 let contenuDiv = {}; //j'en fais un objet plutôt qu'une liste
 
