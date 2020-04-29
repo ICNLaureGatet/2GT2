@@ -223,3 +223,19 @@ nav>ul li:hover .sous {
     border-radius: 10px;
     border: 2px solid #555;
 }
+
+
+/*Trouvé à cette adresse : https://codepen.io/jreaux62/pen/bwzQaE*/
+
+.vecteur {
+    position: relative;
+    display: inline-block;
+}
+
+.vecteur:after {
+    position: absolute;
+    display: block;
+    content: '→';
+    top: -0.5em;
+    left: -0.1em;
+}
