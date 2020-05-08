@@ -31,9 +31,9 @@
         <!--<p> Travaux à rendre :
            
         </p>-->
-        <p><u>Pour le 04 mai :</u> Devoir maison (exercices sur les équations de droites + exercices labomep sur les équations de droites)<br/> Le corrigé sera en ligne le 05 mai.<br/> Le corrigé est en ligne (première partie du chapitre X).</p>
         <p><u>Semaine du 04 mai :</u> Poursuite du cours sur les équations de droites (droites parallèles + systèmes d'équations linéaires).<br/> Pour le lundi 04 mai, faire UNIQUEMENT les exercices 50 p. 232 (question3) et 52 p. 232 de la partie sur les
-            droites parallèles.<br/> J'ai mes la correction des exercices.</p>
+            droites parallèles.<br/> J'ai mis la correction des exercices.</p>
+        <p><u>Semaine du 11 mai :</u> Cours sur les autres fonctions de référence (fonctions cube et inverse).<br/> Dans le chapitre, vous avez des liens vers des exercices en ligne (je ferai une séance labomep la semaine suivante et vous en retrouverez).</p>
     </div>
     <nav>
         <ul>
@@ -59,6 +59,13 @@
                     <li id="navdroites"><a href="#">I - Caractérisation d'une droite</a></li>
                     <li id="navdroitesparalleles"><a href="#">c) Droites parallèles</a></li>
                     <li id="navsystemes"><a href="#">II - Systèmes linéaires</a></li>
+                </ul>
+            </li>
+            <li class="deroulant"><a href="#" id="navautresFctsRef">Chap XI - Autres fonctions de référence &ensp;</a>
+                <ul class="sous">
+                    <li id="navfctCube"><a href="#">I - Fonction cube</a></li>
+                    <li id="navfctInverse"><a href="#">II - Fonction inverse</a></li>
+                    <li id="navtabSignes"><a href="#">III - Tableaux de signes</a></li>
                 </ul>
             </li>
         </ul>
@@ -255,7 +262,7 @@
         </div>
         <div id="droitesparalleles">
             <h3>c) Droites parallèles</h3>
-            <p>Le cours traitement de cette partie est dans le premier fichier.</p>
+            <p>Le cours traitant de cette partie est dans le premier fichier.</p>
             <p>Voici l'<a href="documents/2nde_DroitesParalleles.pdf" target="_blank">exercice</a> sous la forme d'une présentation.</p>
             <p>Faire les exercices suivants (ils ne sont pas à rendre) :
                 <ul> A faire le lundi 04 mai :
@@ -291,9 +298,8 @@
                     </li>
                 </ul>
             </p>
-            <p>Pour vous entrainer, voici un <a href="https://j3p.sesamath.net/j3p.html?graphe=[1,%22squelettemtg32_Systeme_Param%22,[{pe:%22sans%20condition%22,nn:%22fin%22,conclusion:%22Fin%22},{a:%22(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)%22,b:%22(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)%22,d:%22(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)%22,e:%22(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)%22,ex:%22Lycee_Systeme_Lineaire_2%22}]];"
-                    target="_blank">exercice en ligne</a> puis un <a href="https://j3p.sesamath.net/j3p.html?graphe=[1,%22squelettemtg32_Systeme_Param%22,[{pe:%22sans%20condition%22,nn:%22fin%22,conclusion:%22Fin%22},{ex:%22Lycee_Systeme_Lineaire_1%22}]];"
-                    target="_blank">deuxième</a>.<br/> La méthode la plus judicieuse dans chacune de ces deux exemple n'est asp nécessairement la même...</p>
+            <p>Pour vous entrainer, voici un <a href='https://j3p.sesamath.net/j3p.html?graphe=[1,"squelettemtg32_Systeme_Param",[{pe:"sans%20condition",nn:"fin",conclusion:"Fin"},{a:"(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)",b:"(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)",d:"(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)",e:"(int(rand(0)*2)*2-1)*(int(rand(0)*4)+2)",ex:"Lycee_Systeme_Lineaire_2"}]];'
+                    target="_blank">exercice en ligne</a> puis un <a href='https://j3p.sesamath.net/j3p.html?graphe=[1,"squelettemtg32_Systeme_Param",[{pe:"sans%20condition",nn:"fin",conclusion:"Fin"},{ex:"Lycee_Systeme_Lineaire_1"}]];' target="_blank">deuxième</a>.<br/>                La méthode la plus judicieuse dans chacune de ces deux exemple n'est asp nécessairement la même...</p>
             <p>Voici un <a href="documents/ExCombinaison.pdf" target="_blank">dernier exemple</a> qui sera un cas particulier. Vous retrouvez les explications en <a href="videos/ExSystemeParticulier.mp4" target="_blank">vidéo</a>.</p>
             <p>Faire l'exercice suivant (ils n'est pas à rendre) :
                 <ul> A faire le jeudi 07 mai :
@@ -301,6 +307,45 @@
                     <li><a href="documents/Ex82p236.pdf" target="_blank">Correction de l'exercice 82</a>.</li>
                 </ul>
             </p>
+        </div>
+    </div>
+    <div id='autresFctsRef'>
+        <h1>Chapitre XI - Autres fonctions de référence</h1>
+        <!--
+        <p>Voici le <a href="documents\2019_2nde_11_AutresFctRef_eleve.pdf" target="_blank">cours complet</a> (version élève) à imprimer.</p>
+        -->
+        <div id="fctCube">
+            <h2>I - Fonction cube</h2>
+        <!--
+            <p>Voici <a href="documents\fctCube.pdf" target="_blank">la première partie du cours, celle sur la fonction cube</a>, extraite du <a href="documents\2019_2nde_11_AutresFctRef_eleve.pdf" target="_blank">cours complet</a>.</p>
+            <h3>a) Définition et représentation</h3>
+            <p>Dans cette partie, vous devrez construire, à l'aide d'un tableau de valeur de votre calculatrice la courbe représentant la fonction cube (vérifier dans le manuel p. 123).</p>
+            <p>En complément de l'exemple proposé dans cette partie, entrainez-vous avec <a href='https://bibliotheque.sesamath.net/public/voir/5d1c682170dffc21dad32b37' target="_blank">cet exercice</a>.</p>
+            <h3>b) Équations et inéquations</h3>
+            <p>Dans cette partie, je vous demande de compléter le tableau en parcourant la fonction balayage avec pour argument 0.1 (dans la colonne du test, on n'aura comme valeur possible que True ou False).<br/> Cela vous permettra de déterminer la valeur
+                renvoyée par cette fonction.</p>
+            <p>Pour la deuxième fonction (dichotomie), c'est optionnel car plus difficile, mais je vous encourage à compléter le tableau avec les valeurs successives obtenues au cours de l'algorithme (là aussi dans les colonnes des inégalités, on ne verra
+                que les valeurs True ou False).</p>
+            <p>En complément de cette partie, voici un <a href='https://j3p.sesamath.net/j3p.html?graphe=[1,"inequationFctRef",[{pe:"sans%20condition",nn:"fin",conclusion:"Fin"},{typeFonction:"cube"}]];' target='blank'>exercice sur la résolution d'inéquations</a>.
+            </p>
+        -->
+        </div>
+        <div id="fctInverse">
+            <h2>II - Fonction inverse</h2>
+        <!--
+            <p>Voici <a href="documents/fctInverse.pdf" target="_blank">la deuxième partie du cours sur la fonction inverse</a>, extraite du <a href="documents\2019_2nde_11_AutresFctRef_eleve.pdf" target="_blank">cours complet</a></p>
+            <p>En complément voici deux exercices :
+                <ul>
+                    <li><a href='https://bibliotheque.sesamath.net/public/voir/5d1c678fb0b0e021d8bbd14a' target='_blank'>encadrement avec la fonction inverse</a> ;</li>
+                    <li><a href='https://j3p.sesamath.net/j3p.html?graphe=[1,"inequationFctRef",[{pe:"sans%20condition",nn:"fin",conclusion:"Fin"},{typeFonction:"inverse"}]];' target='_blank'>résolution d'inéquation avec la fonction inverse</a> ;</li>
+                </ul>
+            </p>
+        -->
+        </div>
+        <div id="tabSignes">
+            <h2>III - Signe d'un produit ou quotient de fonctions affines</h2>
+            <h3>Produit de fonctions affines</h3>
+            <h3>Quotient de fonctions affines</h3>
         </div>
     </div>
     <footer id="licencePied">
