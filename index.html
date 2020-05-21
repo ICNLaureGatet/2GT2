@@ -28,13 +28,10 @@
         <!--<p> Travaux à rendre :
            
         </p>-->
-        <p><u>Semaine du 11 mai :</u> Cours sur les autres fonctions de référence (fonctions cube et inverse).<br/> Dans le chapitre, vous avez des liens vers des exercices en ligne (je ferai une séance labomep la semaine suivante et vous en retrouverez).</p>
-        <p>Pour jeudi 14 mai : faire les exercices 104 et 105 p. 27 (résolution de deux systèmes d'équations linéaires).<br/> La correction est en ligne à la fin du chapitre X.<br/> J'ai également mis les corrections des parcours des algorithmes (I du chapitre
-            XI).
-        </p>
-        <p>Jeudi 14 mai : III - Signe du produit et du quotient de fonctions affines<br/> a) Produit de fonctions affines</p>
         <p>Lundi 18 mai : b) Cas du quotient de fonctions affines + Exercices 74, 76 et 79 p.111</p>
         <p>Pour le lundi 25 mai : <mark>session labomep nommée 18mai2020</mark> (système, tableaux de signes, fonctions cube et inverse)</p>
+        <p>Lundi 25 mai : partie I du chapitre de statistiques. Test (non noté) sur moodle pour compléter le fichier élève + travail sur l'algorithme avec un fichier à insérer et à compléter dans l'application Jupyter de l'ENT (j'ai fait une vidéo expliquant
+            la démarche).</p>
     </div>
     <nav>
         <ul>
@@ -67,6 +64,13 @@
                     <li id="navfctCube"><a href="#">I - Fonction cube</a></li>
                     <li id="navfctInverse"><a href="#">II - Fonction inverse</a></li>
                     <li id="navtabSignes"><a href="#">III - Tableaux de signes</a></li>
+                </ul>
+            </li>
+            <li class="deroulant"><a href="#" id="navstatistiques">Chap XII - Statistiques &ensp;</a>
+                <ul class="sous">
+                    <li id="navserieStat"><a href="#">I - Série statistique</a></li>
+                    <li id="navmedQuartiles"><a href="#">II - Médiane et écart interquartile</a></li>
+                    <li id="navmoyEcartType"><a href="#">III - Moyenne et écart-type</a></li>
                 </ul>
             </li>
         </ul>
@@ -360,8 +364,34 @@
             </p>
         </div>
     </div>
+    <div id='statistiques'>
+        <h1>Chapitre XII - Les statistiques descriptives</h1>
+        <p>Voici le <a href="documents\2019_2nde_12_Statistiques_eleve.pdf" target="_blank">cours complet</a> (version élève) à imprimer.</p>
+        <div id="serieStat">
+            <h2>I - Série statistique</h2>
+            <p>Voici <a href="documents\serieStatistiques.pdf" target="_blank">la première partie du cours</a>, celle sur la définition et la présentation de données d'une série statistique, extraite du <a href="documents\2019_2nde_12_Statistiques_eleve.pdf"
+                    target="_blank">cours complet</a>.</p>
+            <h3>a) Effectifs et fréquences</h3>
+            <p>Dans cette partie, vous allez retrouver des définitions déjà vues au collège.<br/> Mon objectif ici est de vous faire travailler sur le tableur en complétant les différentes zones.<br/> Pour vous aider, vous pouvez télécharger le <a href="documents/exempleCours.ods"
+                    download="tableur">fichier tableur initial</a>.<br/> Ensuite, <strong>allez sur moodle, tout en bas dans la partie statistiques</strong>, j'ai conçu un test pour vous permettre de répondre et surtout pour vous donner ensuite <strong>les réponses</strong>.</p>
+            <p>La note à ce test n'a aucune importance. Je pensais l'enlever, mais en la laissant, ça me permettra de mieux visualiser si vous avez compris ou non et où vous commettez des erreurs.</p>
+            <h3>Traitement sous la forme d’un algorithme</h3>
+            <p>Dans cette partie, je vous montre sur l'exemple du cours comment on peut demander à python de traiter une série statistique.</p>
+            <p>Vous devez ensuite aller sur l'ENT. Dans moodle, vous allez récupérer un fichier jupyter (ex2p268.ipynb) que vous ouvrirez et complèterez dans <strong>l'application Jupyter de lyceeconnecte</strong> (travail à faire le lundi 25 mai).</p>
+            <p>Voici une <a href="videos/travailJupyter.mp4" target="_blank">vidéo</a> qui vous explique comment récupérer le document de travail et l'intégrer dans l'application Jupyter de l'ENT.</p>
+        </div>
+        <div id="medQuartiles">
+            <h2>II - Mediane et écart interquartile</h2>
+            <p>Voici <a href="documents\medianeQuartiles.pdf" target="_blank">la deuxième partie du cours</a>, celle sur la définition et le calcul de la médiane et des quartiles d'une série, extraite du <a href="documents\2019_2nde_12_Statistiques_eleve.pdf"
+                    target="_blank">cours complet</a>.</p>
+        </div>
+        <div id="moyEcartType">
+            <h2>III - Moyenne et écart-type</h2>
+
+        </div>
+    </div>
     <footer id="licencePied">
-        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.0/fr/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 2.0 France</a>.
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0"><img alt="Licence Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0</a>.
     </footer>
 
 </body>
